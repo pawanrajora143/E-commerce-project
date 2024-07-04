@@ -2,12 +2,12 @@
 
 .newslatter{
     width: 65%;
-    height: 40vh;
+    /* height: 40vh; */
     flex-direction: column;
     align-content: center;
     justify-content: center;
     margin: auto;
-    padding: 0px 100px;
+    padding: 100px 100px 0px 100px;
     margin-bottom: 150px;
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     gap: 30px;
@@ -47,6 +47,7 @@
    font-family: poppins;
    font-size: 16px;
 }
+
 .newslatter div button{
 width:210px;
 height: 70px;
@@ -56,5 +57,4 @@ color: white;
 font-size: 16px;
 cursor: pointer;
 border: none;
-
 }
