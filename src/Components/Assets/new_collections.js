@@ -65,13 +65,8 @@ let new_collections = [
     new_price: 100.0,
     old_price: 150.0,
   },
-  {
-    id: 21,
-    name: "Boys White Jacket ",
-    image: p11_img,
-    new_price: 100.0,
-    old_price: 150.0,
-  },
+  
+ 
 ];
 
 export default new_collections;

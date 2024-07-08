@@ -1,7 +1,12 @@
 
 
 .item{
-    width: 350px;
+    /* width: 350px; */
+   
+} 
+
+.item img{
+    width: 100%;
 }
 
 .item p{

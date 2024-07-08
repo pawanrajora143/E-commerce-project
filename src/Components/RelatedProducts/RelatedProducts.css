@@ -1,0 +1,47 @@
+
+
+.RelatedProducts{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px;
+    /* height: 90vh; */
+    width: 80%;
+    margin: auto; 
+    /* background-color: aquamarine;
+     */
+     margin-bottom: 80px;
+}
+
+.RelatedProducts h1{
+    color: #717171;
+    font-size: 30px;
+    font-weight: 600;  
+    padding: 0px 50px;
+    text-align: center;
+}
+.RelatedProducts hr{
+   width: 200px;
+   height: 4px;
+   border-radius: 10px;
+   background-color: #252525;
+
+}
+
+.related-product-item{
+  display: grid;
+  grid-template-columns:repeat( 4, 23%) ;
+  /* gap: 20px; */
+  justify-content: space-evenly;
+  width: 90%;
+  margin-top: 50px;
+}
+
+/* .related-product-item .item{
+ width: 250px;
+} */
+
+.related-product-item img{
+    width: 100%;
+
+}
