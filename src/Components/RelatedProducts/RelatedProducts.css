@@ -20,12 +20,12 @@
     padding: 0px 50px;
     text-align: center;
 }
+
 .RelatedProducts hr{
    width: 200px;
    height: 4px;
    border-radius: 10px;
    background-color: #252525;
-
 }
 
 .related-product-item{
@@ -43,5 +43,4 @@
 
 .related-product-item img{
     width: 100%;
-
 }

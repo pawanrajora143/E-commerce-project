@@ -1,11 +1,17 @@
 
 
-import React from 'react'
+import React, { useContext } from 'react'
 import "./RelatedProducts.css"
 import data_product from "../Assets/data"
 import Item from "../Items/Item"
+import { ShopContext } from '../../Context/ShopContext'
 
 const RelatedProducts = () => {
+
+
+  
+
+
   return (
     <div className='RelatedProducts'>
       <h1>Related Products</h1>
