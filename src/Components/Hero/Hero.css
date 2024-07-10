@@ -65,3 +65,54 @@ font-weight: 500;
 .hero-right img{
    width: 90%;
 }
+
+
+
+@media(max-width: 500px){
+    .hero {
+        width: 100%;
+       flex-direction: column;
+       
+    }
+
+    .hero_left{
+        width: 100%;
+        /* background-color: #ff4141; */
+        padding-left: 0px;
+        padding: 50px 50px 50px 50px;
+        justify-content: left;
+        align-items: left;
+        
+    }
+    .hero_left p{
+        font-size: 30px; 
+        line-height: 1.6em;
+    }
+    .hero_left h2{
+        font-size: 12px; 
+    }
+
+    .hero-hand-icon p{
+        font-size: 30px;
+    }
+    .hero-hand-icon img{
+      width: 30px;
+    }
+
+
+
+
+
+
+    .hero-right{
+        width: 100%;
+        /* background-color: #ff4141; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-right img{
+        width: 80%;
+        /* background-color: #ff4141; */
+    }
+}

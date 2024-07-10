@@ -34,3 +34,24 @@
 .popular-item img{
     width: 100%;
 }
+
+
+@media (max-width:500px){
+    .popular{
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .popular h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .popular hr{
+        width: 100px;
+    }
+    .popular-item{
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+        padding: 0px 50px 50px 50px;
+    }
+}

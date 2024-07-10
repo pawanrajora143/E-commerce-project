@@ -67,3 +67,18 @@
 
 }
 
+
+
+@media(max-width:500px){
+    .footer{
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-links{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
