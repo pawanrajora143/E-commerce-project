@@ -54,4 +54,13 @@
         gap: 50px;
         padding: 0px 50px 50px 50px;
     }
+
+
+    .popular-item{
+        width:90%;
+        margin-bottom: 0px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
 }

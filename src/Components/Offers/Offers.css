@@ -52,12 +52,33 @@
 
  }
 
+
+ @media(max-width:992px){
+
+   .offers{
+      width: 100%;
+      display: flex;
+      margin: auto;
+      padding: 0px 50px;
+      margin-bottom:0px;
+      background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+      margin-top: 50px;
+  
+  }
+
+
+ }
+
+
+
+
  @media(max-width:500px){
    .offers{
       width: 100%;
       flex-direction: column;
       padding: 50px 50px;
       gap: 40px;
+      margin-top: 0px;
    }
    .offers-left h1{
       font-size: 30px;
@@ -87,3 +108,6 @@
   
    }
  }
+
+
+
