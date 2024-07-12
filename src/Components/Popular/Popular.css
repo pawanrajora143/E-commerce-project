@@ -36,6 +36,19 @@
 }
 
 
+
+@media (max-width:768px){
+
+    
+.popular-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+}
+
+
+
 @media (max-width:500px){
     .popular{
         width: 100%;
@@ -52,7 +65,7 @@
         width: 100%;
         flex-direction: column;
         gap: 50px;
-        padding: 0px 50px 50px 50px;
+        padding: 0px 0px 0px 0px;
     }
 
 

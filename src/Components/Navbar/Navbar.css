@@ -202,6 +202,17 @@
     .nav-login-cart{
         transform: scale(0.8);
     }
+
+    .nav-menu {
+        height: 100vh;
+        top: 50px;
+        flex-flow: column;
+        gap: 50px;
+        position: fixed;
+        /* top: 0;
+        left: 0; */
+        z-index: 99;
+    }
 }
 
 
