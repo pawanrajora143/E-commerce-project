@@ -56,6 +56,10 @@
     margin-bottom:30px;
     color: #1a1a1a;
     font-size: 16px;
+    justify-content: center;
+}
+.footer-copyright p{
+   text-align: center;
 }
 
 .footer-copyright hr{
