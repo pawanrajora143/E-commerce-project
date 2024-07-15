@@ -37,3 +37,32 @@ color: #555;
    font-size: 14px;
    
 }
+
+
+@media(max-width:500px){
+    .descreptionbox{
+        margin: 50px 0px;
+        padding: 0px 20px;
+    }
+
+    .descreption-nav-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        height: 70px;
+        border: 1px solid #d0d0d0;
+    }
+
+    .descreptionbox-descreption {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border: 1px solid #d0d0d0;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+}
+
