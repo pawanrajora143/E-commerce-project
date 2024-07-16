@@ -230,4 +230,10 @@ font-weight: 500;
         width: 80%;
         /* background-color: #ff4141; */
     }
+    .hero {
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 60px;
+}
 }

@@ -213,6 +213,17 @@
         left: 0; */
         z-index: 99;
     }
+
+    .navbar {
+        width: 8px 0px;
+        gap: 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        background: white;
+    }
 }
 
 
